@@ -1,0 +1,394 @@
+{
+  "settings": {
+    "name": "Oxydental Pro™",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#fff306",
+        "secondaryColor": "#0088ff",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Roboto",
+        "display1Size": "3",
+        "display2Font": "Roboto",
+        "display2Size": "2.5",
+        "display5Font": "Roboto",
+        "display5Size": "2",
+        "display7Font": "Roboto",
+        "display7Size": "1.3",
+        "display4Font": "Roboto",
+        "display4Size": "1",
+        "isRoundedButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": [
+        "#fff306",
+        "#fcfcfd",
+        "#f2f9ff",
+        "#011644",
+        "#0088ff",
+        "#891ba2",
+        "#3b9f32"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.0.2",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Roboto', sans-serif",
+        "name": "Roboto",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "uniqCompNum": 350,
+    "versionPublish": "6.1.12",
+    "imageResize": true,
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/chatgpt20image20apr20182020262012-00-4120pm-128x128.png",
+    "mbrsiteDomain": "aflmgc7q0y",
+    "usedWebp": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Why Americans Choose Oxydental Pro",
+        "meta_descr": "A surprising oral health story reveals why many Americans are trying Oxydental Pro. Learn the science, benefits, and customer experiences today.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "socialSharingUrl": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/nerve%2520health-1200x720.png"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#0088ff"
+            }
+          },
+          "_name": "article11",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article11\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n       <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">        \n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\">\n    </div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mt-0 mb-0\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\"><b>Top Dentist: Chew on This “Deep Sea Mineral”\n</b><div><b>to Fix Bleeding Gums &amp; Tooth Decay</b></div></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mt-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">\n                The everlasting charm of photographs\n                </h4>\n                <div class=\"mbr-section-btn align-center mt-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Learn more\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "vqxHhzYNbt",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "article11-9m"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            }
+          },
+          "_name": "image01",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image01\" group=\"Image & Video\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n    <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n      <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-12 col-lg-{{textWidth}}\">\n        <div class=\"image-wrapper mb-4\">\n          <a href=\"https://hop.clickbank.net/?affiliate=sem6212&vendor=oxydental&cbpage=tsl&affop=1\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/screencapture-getoxydental-video-php-2026-07-27-09-25-988x573.png\" alt=\"Mobirise Website Builder\"></a>\n        </div>\n        <h4 class=\"mbr-description mbr-fonts-style mb-3 align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-description\"><b>The Real Reason Brushing and Flossing Can’t Stop Gum Bleeding</b></h4>\n        <p class=\"mbr-description mbr-fonts-style mb-0 align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">I used to do everything right, brushing twice a day, flossing, and never missing a cleaning, yet my gums still bled, my breath was awful, and my dentist kept finding new cavities.\n<br>I even stopped eating sweets and drinking soda.\n<br>Then I discovered that all these had nothing to do with my inflamed gums and tooth pain. According to recent studies, the real cause of gum disease and tooth decay isn’t sugar or bad brushing, but oxygen starvation inside your gums and teeth.\n<br>Even the most expensive toothpaste or dental treatments can’t fix it, because they don’t restore oxygen where it’s needed most.\n<br>That’s when I found a 15-second “marine tooth-repair hack” created by a Harvard-trained dentist. \n<br>It floods your gums and teeth with healing oxygen, rebuilding your smile from the inside out.\n<br>Now my gums don’t bleed, my breath is fresh again, and my teeth feel stronger than ever.\n<br>Over 27,000 people have already tried this simple method and say it has completely changed their smile.&nbsp;<br></p>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "vqxHqDcUdg",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image01-9n"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#000000",
+              "text-align": "center"
+            }
+          },
+          "_name": "article12",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article12\" group=\"Article\">    \n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4 mt-0\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>The Real Reason Brushing and </b><br><b>Flossing Can’t Stop Gum Bleeding</b></h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">The storytelling magic of photos\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">I used to do everything right, <b>brushing twice a day, </b>flossing, and never missing a cleaning, yet my gums still bled, my breath was awful, and my dentist kept finding new cavities.<br>\n<br><b>I even stopped eating sweets and drinking soda.<br></b>\n<br>Then I discovered that all these had nothing to do with my inflamed gums and tooth pain. According to recent studies, the real cause of gum disease and tooth decay isn’t sugar or bad brushing, but oxygen starvation inside your gums and teeth.<br>\n<br>Even the most<b> expensive toothpaste or dental treatments can’t fix it,</b> because they don’t restore oxygen where it’s needed most.<br>\n<br>That’s when <b>I found a 15-second “marine tooth-repair hack” </b>created by a <b>Harvard-trained dentist. \n</b><br>It floods your gums and teeth with healing oxygen, rebuilding your smile from the inside out.<br>\n<br>Now my gums don’t bleed, my breath is fresh again, and my teeth feel stronger than ever.\n<br><b>Over 27,000 people have already tried this simple method</b> and say it has completely changed their smile.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "vqxI2ZdCBB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "article12-9p"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "article16",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article16\" group=\"Article\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://hop.clickbank.net/?affiliate=sem6212&vendor=oxydental&cbpage=tsl&affop=1\" data-app-placeholder=\"Type Text\">Watch the Video Before It’s Too Late</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "vqxI1NFM9P",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "article16-9o"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden"
+          },
+          "_name": "footer7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"><a href=\"Privacy-Policy.html\" class=\"text-white\">Privacy Policy</a> |&nbsp;<a href=\"Terms-and-Conditions.html\" class=\"text-white\" target=\"_blank\">Terms &amp; Conditions</a> |&nbsp;<a href=\"Disclaimer.html\" class=\"text-white\">Disclaimer</a><br>\n<br>This site is not a part of the Facebook website or Facebook Inc. Additionally, This site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.\n<br>\n<br><b>FDA Compliance:</b>&nbsp;The information on this website has not been evaluated by the Food &amp; Drug Administration or any other regulatory body. We do not aim to diagnose, treat, cure, or prevent any skin conditions or diseases. The content is provided for educational purposes only. You should always consult a dermatologist or healthcare professional before using any skincare products or following any skincare advice, especially if you have sensitive skin, allergies, or underlying medical conditions.&nbsp;Results May Vary: Skincare results and testimonials featured on this site are not a guarantee of specific outcomes. Individual results may vary based on factors such as skin type, genetics, environmental influences, and skincare routine.&nbsp;Some names and personal identifying details have been changed to protect privacy.&nbsp;No individual result should be considered typical.\n<br>\n<br>Enjoy &amp; Thank you!<br><br>© Copyright 2026<a href=\"https://rachelmorgans.com/home/\" class=\"text-white\">&nbsp;Rachel Morgan™ </a>- All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "uKiWfhK3iL",
+          "_anchor": "footer7-8h",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "Terms-and-Conditions.html": {
+      "settings": {
+        "title": "Terms and Conditions",
+        "order": "1",
+        "meta_descr": "Read the Terms and Conditions for it—learn about usage, policies, disclaimers, and your rights before purchasing."
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h1 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-1\"><b>\n                    Terms and Conditions</b></h1>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><https: en-<br=\"\">Our Terms and Conditions were last updated on [05-04-2026].\n<br>\n<br>Welcome to our website! These Terms and Conditions of Website Usage (\"Terms\") regulate your access and use of this website. By accessing and utilizing this website, you agree to be bound by these Terms. If you disagree with any of these Terms, you are not authorized to access or use this website. Please carefully read these Terms before proceeding. ‍ Acceptance of Terms By accessing this website, you acknowledge that you have read, comprehended, and consented to these Terms. You are responsible for abiding by all applicable laws and regulations. If you do not agree to these Terms, please refrain from using this website. ‍ Intellectual Property Rights The materials and content on this website are safeguarded by copyright, trademark, and other intellectual property laws. All rights are reserved. You are granted a limited, non-exclusive, non-transferable license to access and use the materials on this website for personal, non-commercial purposes only. Without our prior written consent, you may not alter, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works, transfer, or sell any information, software, products, or services obtained from this website. ‍ Disclaimer of Warranties This website and its content are provided on an \"as is\" basis without any warranties or representations, express or implied. We do not assure or guarantee the accuracy, reliability, completeness, suitability, or availability of the content on this website or any linked sites. Your use of this website is at your own risk. ‍ Limitation of Liability In no event shall we or our suppliers be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in any way connected with the use of this website or the inability to use it, even if we have been advised of the possibility of such damages. Some jurisdictions do not allow the exclusion or limitation of liability for incidental or consequential damages, so the above limitation may not apply to you. ‍ Modifications and Updates We reserve the right to modify, update, or discontinue any part of this website, including these Terms, at any time without prior notice. It is your responsibility to periodically review these Terms for any changes. Your continued use of this website after any modifications constitutes your acceptance of the revised Terms. ‍ Third-Party Links This website may contain links to third-party websites for your convenience. We do not endorse, control, or assume responsibility for the content, products, or services offered by these linked websites. Accessing and using such third-party websites is at your own risk and subject to their respective terms and conditions. ‍ Privacy Policy We are committed to safeguarding your privacy. Please refer to our Privacy Policy for information on how we collect, use, and disclose personal information. ‍ Governing Law These Terms shall be governed by and construed in accordance with the laws of the United States, without regard to its conflict of law provisions. If you have any questions or concerns regarding these Terms, please contact us. Thank you for visiting our website.<br></https:></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tLwMDsiyG7",
+          "_anchor": "content5-2w",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden"
+          },
+          "_name": "footer7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"><a href=\"Privacy-Policy.html\" class=\"text-white\">Privacy Policy</a> |&nbsp;<a href=\"Terms-and-Conditions.html\" class=\"text-white\" target=\"_blank\">Terms &amp; Conditions</a> |&nbsp;<a href=\"Disclaimer.html\" class=\"text-white\">Disclaimer</a><br>\n<br>This site is not a part of the Facebook website or Facebook Inc. Additionally, This site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.\n<br>\n<br><b>FDA Compliance:</b>&nbsp;The information on this website has not been evaluated by the Food &amp; Drug Administration or any other regulatory body. We do not aim to diagnose, treat, cure, or prevent any skin conditions or diseases. The content is provided for educational purposes only. You should always consult a dermatologist or healthcare professional before using any skincare products or following any skincare advice, especially if you have sensitive skin, allergies, or underlying medical conditions.&nbsp;Results May Vary: Skincare results and testimonials featured on this site are not a guarantee of specific outcomes. Individual results may vary based on factors such as skin type, genetics, environmental influences, and skincare routine.&nbsp;Some names and personal identifying details have been changed to protect privacy.&nbsp;No individual result should be considered typical.\n<br>\n<br>Enjoy &amp; Thank you!<br><br>© Copyright 2026<a href=\"https://rachelmorgans.com/home/\" class=\"text-white\">&nbsp;Rachel Morgan™ </a>- All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "uKiWfhK3iL",
+          "_anchor": "footer7-8h",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "Privacy-Policy.html": {
+      "settings": {
+        "title": "Privacy Policy",
+        "order": "2",
+        "meta_descr": "Read the Privacy Policy for it to learn how your data is collected, used, and protected with secure, transparent practices."
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h1 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-1\"><b>\n                    Privacy Policy</b></h1>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Our Privacy Policy was last updated on [05-04-2026].\n<br>\n<br>Welcome to our Privacy Policy. We are committed to protecting your privacy and ensuring the security of your information. This Privacy Policy outlines the types of information collected and used by our organization. If you have any questions or need clarification about our Privacy Policy, please feel free to contact us. This Privacy Policy applies to our online activities and pertains to information collected on our website. Please note that this policy does not cover information collected offline or through other channels. Your Consent By using our website, you consent to our Privacy Policy and agree to its terms. Information Collection We collect personal information when you provide it to us voluntarily. This may include your name, email address, phone number, and any other details you choose to share. When you register for an account, we may ask for additional information such as your contact details. Usage of Your Information We use the information we collect for various purposes, including providing and improving our services, communicating with you, and preventing fraud. Log Files We utilize log files to analyze trends, administer the site, and track users' movements on the website. This information is not linked to personally identifiable information. Privacy Policies of Advertising Partners Please refer to the Privacy Policies of our advertising partners for information on their practices. Third Party Privacy Policies Our Privacy Policy does not extend to other advertisers or websites. Please review the Privacy Policies of these third-party ad servers for more information. CCPA Privacy Rights Under the California Consumer Privacy Act (CCPA), California consumers have the right to request information about the categories of personal data collected and request deletion of their personal data. GDPR Data Protection Rights Under the General Data Protection Regulation (GDPR), users have the right to access, rectify, erase, restrict processing, object to processing, and data portability. Children's Information We do not knowingly collect personal information from children under the age of 13. If you believe your child has provided such information, please contact us, and we will take appropriate action. If you have any questions or concerns about our Privacy Policy, please contact us.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tLwJ2tPhAO",
+          "_anchor": "content5-2v",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden"
+          },
+          "_name": "footer7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"><a href=\"Privacy-Policy.html\" class=\"text-white\">Privacy Policy</a> |&nbsp;<a href=\"Terms-and-Conditions.html\" class=\"text-white\" target=\"_blank\">Terms &amp; Conditions</a> |&nbsp;<a href=\"Disclaimer.html\" class=\"text-white\">Disclaimer</a><br>\n<br>This site is not a part of the Facebook website or Facebook Inc. Additionally, This site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.\n<br>\n<br><b>FDA Compliance:</b>&nbsp;The information on this website has not been evaluated by the Food &amp; Drug Administration or any other regulatory body. We do not aim to diagnose, treat, cure, or prevent any skin conditions or diseases. The content is provided for educational purposes only. You should always consult a dermatologist or healthcare professional before using any skincare products or following any skincare advice, especially if you have sensitive skin, allergies, or underlying medical conditions.&nbsp;Results May Vary: Skincare results and testimonials featured on this site are not a guarantee of specific outcomes. Individual results may vary based on factors such as skin type, genetics, environmental influences, and skincare routine.&nbsp;Some names and personal identifying details have been changed to protect privacy.&nbsp;No individual result should be considered typical.\n<br>\n<br>Enjoy &amp; Thank you!<br><br>© Copyright 2026<a href=\"https://rachelmorgans.com/home/\" class=\"text-white\">&nbsp;Rachel Morgan™ </a>- All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "uKiWfhK3iL",
+          "_anchor": "footer7-8h",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "Disclaimer.html": {
+      "settings": {
+        "title": "Disclaimer",
+        "order": "3",
+        "meta_descr": "Read the it disclaimer. Learn about health advice limits, no medical claims, and ClickBank’s non-endorsement before use."
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h1 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-1\"><b>\n                    Disclaimer</b></h1>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><https: en-<br=\"\">Our Disclaimer were last updated on [05-04-2026].\n<br>\n<br>The content provided on this website is intended solely as an advertorial and should not be misconstrued as a genuine news article, blog post, or consumer protection update. The primary goal of this content is promotional. While it may contain factual information, testimonials, or user experiences, it is crafted with marketing intent and should be interpreted accordingly.\n<br>\n<br>We strive to offer valuable and relevant information that can assist consumers in making informed decisions. However, the views and opinions expressed in this article may not necessarily reflect those of a news outlet or independent journalistic body. All product claims, statistics, or quotes should be independently verified with the manufacturer or official provider before relying on them for decision-making.\n<br>\n<br>This article may reference or promote third-party products or services, and in some cases, we may receive financial compensation through affiliate links or other promotional partnerships. This does not increase the cost to you as a consumer, but it helps support the operation of this website. We only promote offerings that we believe may provide value, though your experience may vary.\n<br>\n<br>It’s important to understand that this content is created for demonstration and informational purposes only. It is not a substitute for professional advice—whether medical, financial, or otherwise—and should not be relied upon as such. Always consult a qualified professional regarding any specific questions or concerns you may have.\n<br>\n<br>By continuing to access or engage with this website, you acknowledge that you have read, understood, and agreed to be bound by our Terms &amp; Conditions and Privacy Policy. Your use of this site implies acceptance of this disclaimer in full.<br></https:></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tLwOqR04Lz",
+          "_anchor": "content5-2x",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden"
+          },
+          "_name": "footer7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"><a href=\"Privacy-Policy.html\" class=\"text-white\">Privacy Policy</a> |&nbsp;<a href=\"Terms-and-Conditions.html\" class=\"text-white\" target=\"_blank\">Terms &amp; Conditions</a> |&nbsp;<a href=\"Disclaimer.html\" class=\"text-white\">Disclaimer</a><br>\n<br>This site is not a part of the Facebook website or Facebook Inc. Additionally, This site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.\n<br>\n<br><b>FDA Compliance:</b>&nbsp;The information on this website has not been evaluated by the Food &amp; Drug Administration or any other regulatory body. We do not aim to diagnose, treat, cure, or prevent any skin conditions or diseases. The content is provided for educational purposes only. You should always consult a dermatologist or healthcare professional before using any skincare products or following any skincare advice, especially if you have sensitive skin, allergies, or underlying medical conditions.&nbsp;Results May Vary: Skincare results and testimonials featured on this site are not a guarantee of specific outcomes. Individual results may vary based on factors such as skin type, genetics, environmental influences, and skincare routine.&nbsp;Some names and personal identifying details have been changed to protect privacy.&nbsp;No individual result should be considered typical.\n<br>\n<br>Enjoy &amp; Thank you!<br><br>© Copyright 2026<a href=\"https://rachelmorgans.com/home/\" class=\"text-white\">&nbsp;Rachel Morgan™ </a>- All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "uKiWfhK3iL",
+          "_anchor": "footer7-8h",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
